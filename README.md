@@ -18,7 +18,7 @@ Check out the live demo [here](#).
 
 ```bash
 git clone https://github.com/R894/portfolio.git
-cd your-portfolio
+cd portfolio
 ```
 
 2. Install dependencies
