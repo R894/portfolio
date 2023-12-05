@@ -1,6 +1,7 @@
 import React from "react";
 import HeadImage from "../../assets/icons/section-head.png";
 import Header from "../Header";
+import Footer from "../Footer";
 
 interface SectionProps {
   id: string;
@@ -9,6 +10,7 @@ interface SectionProps {
   altStyle?: boolean;
   children?: React.ReactNode;
   header?: boolean;
+  footer?: boolean;
 }
 
 const Section: React.FC<SectionProps> = ({
@@ -18,12 +20,13 @@ const Section: React.FC<SectionProps> = ({
   altStyle,
   header,
   children,
+  footer,
 }) => {
   return (
     <>
       <div
         id={id}
-        className={`flex w-full px-6 flex-col flex-wrap gap-4 ${header? "justify-between ": "justify-center "} items-center min-h-screen ${altStyle ? "bg-bg2" : ""}`}
+        className={`flex w-full px-6 flex-col flex-wrap gap-4 ${header || footer? "justify-between ": "justify-center "} items-center min-h-screen ${altStyle ? "bg-bg2" : ""}`}
       >
         {header && <Header />}
         {headImage && <img className="pb-8 pt-4 w-8 h-auto" src={HeadImage} />}
@@ -39,6 +42,7 @@ const Section: React.FC<SectionProps> = ({
         )}
 
         {children}
+        {footer && <Footer/>}
       </div>
     </>
   );
