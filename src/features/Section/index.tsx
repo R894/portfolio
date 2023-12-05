@@ -23,7 +23,7 @@ const Section: React.FC<SectionProps> = ({
     <>
       <div
         id={id}
-        className={`flex px-6 max-w-[1980px] flex-col flex-wrap gap-4 ${header? "justify-between ": "justify-center "} items-center min-h-screen ${altStyle ? "bg-bg2" : ""}`}
+        className={`flex w-full px-6 flex-col flex-wrap gap-4 ${header? "justify-between ": "justify-center "} items-center min-h-screen ${altStyle ? "bg-bg2" : ""}`}
       >
         {header && <Header />}
         {headImage && <img className="pb-8 pt-4 w-8 h-auto" src={HeadImage} />}
