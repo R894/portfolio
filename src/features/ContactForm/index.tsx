@@ -82,7 +82,7 @@ const ContactForm = () => {
             labelText="Your message *"
           />
         </div>
-        <Button submit={true} style="primary">Send message</Button>
+        <Button style="primary">Send message</Button>
       </form>
     </>
   );

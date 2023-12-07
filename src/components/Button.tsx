@@ -4,11 +4,9 @@ interface ButtonProps {
   style: "primary" | "secondary" | "tertiary";
   onClick?: () => void;
   children?: React.ReactNode;
-  submit?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
-  submit,
   style,
   onClick,
   children,
@@ -28,9 +26,9 @@ const Button: React.FC<ButtonProps> = ({
 
   return (
     <>
-    {submit? <button className={btnStyle} onClick={onClick}>
+    <button className={btnStyle} onClick={onClick}>
       {children}
-    </button>: <input type="submit" className={btnStyle}/>}
+    </button>
     
     </>
     
