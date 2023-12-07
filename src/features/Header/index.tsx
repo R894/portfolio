@@ -17,7 +17,7 @@ const Header = () => {
           </h1>
         </div>
         <div className="flex gap-4 items-center">
-          <p className="cursor-pointer" onClick={handleClickScroll}>
+          <p className="cursor-pointer hidden lg:block" onClick={handleClickScroll}>
             Projects
           </p>
           <p>

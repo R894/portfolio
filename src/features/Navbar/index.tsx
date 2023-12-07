@@ -5,50 +5,49 @@ import CodeIcon from "../../components/icons/CodeIcon";
 import MonitorIcon from "../../components/icons/MonitorIcon";
 import MailIcon from "../../components/icons/MailIcon";
 
-interface NavItemProps{
-  children: React.ReactNode
-  scrollTo: string
+interface NavItemProps {
+  children: React.ReactNode;
+  scrollTo: string;
 }
 
 const NavItem: React.FC<NavItemProps> = ({ children, scrollTo }) => {
   const handleClickScroll = () => {
     const element = document.getElementById(scrollTo);
     if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+      element.scrollIntoView({ behavior: "smooth" });
     }
   };
   return (
-    <a onClick={() => {handleClickScroll()}}>
-    <li
-      className="hover:bg-white hover:text-black transition ease-in-out duration-150 rounded-full p-2"
-    > 
-    
-      {children}
-    
-    </li>
+    <a
+      onClick={() => {
+        handleClickScroll();
+      }}
+    >
+      <li className="hover:bg-white hover:text-black transition ease-in-out duration-150 rounded-full p-2">
+        {children}
+      </li>
     </a>
   );
 };
 
 const Navbar = () => {
-
   return (
     <nav className="bg-bg2 hidden xl:block border-2 border-white fixed top-7 left-7 rounded-full px-3 py-2">
       <ul className="flex flex-col gap-4">
         <NavItem scrollTo="home">
-          <GridIcon/>
+          <GridIcon />
         </NavItem>
         <NavItem scrollTo="about">
-            <UserIcon/>
+          <UserIcon />
         </NavItem>
         <NavItem scrollTo="skills">
-            <CodeIcon/>
+          <CodeIcon />
         </NavItem>
         <NavItem scrollTo="projects">
-            <MonitorIcon/>
+          <MonitorIcon />
         </NavItem>
         <NavItem scrollTo="contact">
-            <MailIcon/>
+          <MailIcon />
         </NavItem>
       </ul>
     </nav>

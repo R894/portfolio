@@ -4,10 +4,15 @@ interface ButtonProps {
   style: "primary" | "secondary" | "tertiary";
   onClick?: () => void;
   children?: React.ReactNode;
+  submit?: boolean;
 }
 
-const Button: React.FC<ButtonProps> = ({ style, onClick, children }) => {
-
+const Button: React.FC<ButtonProps> = ({
+  submit,
+  style,
+  onClick,
+  children,
+}) => {
   let btnStyle = "rounded-3xl py-3 px-8 text-xl ";
   switch (style) {
     case "primary":
@@ -22,9 +27,13 @@ const Button: React.FC<ButtonProps> = ({ style, onClick, children }) => {
   }
 
   return (
-    <button className={btnStyle} onClick={onClick}>
+    <>
+    {submit? <button className={btnStyle} onClick={onClick}>
       {children}
-    </button>
+    </button>: <input type="submit" className={btnStyle}/>}
+    
+    </>
+    
   );
 };
 

@@ -6,7 +6,7 @@ import Nuntium from "../assets/images/nuntium.png"
 const Projects = () => {
   return (
     <Section id="projects" title="Projects" altStyle={true}>
-      <div className="flex gap-4 flex-wrap justify-center">
+      <div className="flex gap-4 flex-wrap justify-center pb-4">
         <ProjectCard
           title="Nuntium"
           imgSrc={Nuntium}
