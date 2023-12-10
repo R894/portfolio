@@ -13,14 +13,12 @@ const Home = () => {
   return (
     <Section id="home" header={true}>
       <div className="flex w-full h-full justify-around flex-wrap gap-4">
-        <div className="text-xl flex flex-col gap-3 max-w-xl">
+        <div className="text-xl flex flex-col gap-3 max-w-xl xl:max-w-none">
           <p className="font-IBM">Hi, my name is</p>
-          <p className="text-5xl text-brand1 font-medium">Kamil Khalaileh.</p>
-          <p className="text-5xl">I build things for the web.</p>
+          <p className="text-5xl xl:text-7xl text-brand1 font-medium">Kamil Khalaileh.</p>
+          <p className="text-5xl xl:text-7xl">I build things for the web.</p>
           <p className="text-base py-8 font-IBM">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit. Exercitation
-            veniam consequat sunt.
+            I'm an Israeli full-stack developer and QA engineer who is passionate about building exceptional digital experiences
           </p>
           <div className="w-fit">
             <Button

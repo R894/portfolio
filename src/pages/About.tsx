@@ -12,12 +12,10 @@ const About = () => {
           <div className="font-IBM flex flex-col bg-bg1 max-w-3xl p-4 rounded-3xl text-base gap-4">
             <h1 className="text-brand1 text-3xl">Hello!</h1>
             <p>
-              I'm not just a developer; I'm a problem solver. I love diving into
-              challenges, finding innovative solutions, and delivering results
-              that exceed expectations. My toolkit includes the latest
-              technologies in front-end and back-end development, ensuring that
-              the solutions I build are not only functional but also
-              future-proof.
+            I specialize in crafting end-to-end web applications, seamlessly navigating through both client-side and server-side development. From designing user-friendly interfaces to optimizing database performance, I embrace the full spectrum of technologies to create engaging and efficient software.
+            </p>
+            <p>
+            My passion for quality extends beyond development, as I am equally adept at ensuring the reliability and functionality of software through rigorous testing. I bring a systematic approach to quality assurance, implementing comprehensive testing strategies to guarantee the delivery of bug-free, high-performance applications.
             </p>
           </div>
         </div>

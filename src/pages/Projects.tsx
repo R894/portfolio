@@ -11,7 +11,7 @@ const Projects = () => {
           title="Nuntium"
           imgSrc={Nuntium}
           tags={["React", "Typescript", "Tailwindcss", "Go (Golang)"]}
-          gitLink="https://github.com/R894/blog-frontend"
+          gitLink="https://github.com/R894/go-blog"
           demoLink="https://www.google.com/"
         >
           A full-stack blog website with user authentication
@@ -22,7 +22,7 @@ const Projects = () => {
           imgSrc={Portfolio}
           tags={["React", "Typescript", "Tailwindcss"]}
           gitLink="https://github.com/R894/portfolio"
-          demoLink="https://www.google.com/"
+          demoLink="https://www.kamilkh.com/"
         >
           Very long and interesting description
         </ProjectCard>
