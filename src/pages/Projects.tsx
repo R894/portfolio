@@ -12,7 +12,7 @@ const Projects = () => {
           imgSrc={Nuntium}
           tags={["React", "Typescript", "Tailwindcss", "Go (Golang)", "Docker"]}
           gitLink="https://github.com/R894/go-blog"
-          demoLink="https://blog-frontend-du7rjhcj5-r894.vercel.app/"
+          demoLink="https://whale-app-clxux.ondigitalocean.app/"
         >
           A full-stack blog website with user authentication
         </ProjectCard>
