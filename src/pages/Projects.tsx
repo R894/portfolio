@@ -10,9 +10,9 @@ const Projects = () => {
         <ProjectCard
           title="Nuntium"
           imgSrc={Nuntium}
-          tags={["React", "Typescript", "Tailwindcss", "Go (Golang)"]}
+          tags={["React", "Typescript", "Tailwindcss", "Go (Golang)", "Docker"]}
           gitLink="https://github.com/R894/go-blog"
-          demoLink="https://www.google.com/"
+          demoLink="https://blog-frontend-du7rjhcj5-r894.vercel.app/"
         >
           A full-stack blog website with user authentication
         </ProjectCard>
