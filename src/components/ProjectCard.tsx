@@ -40,7 +40,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="p-4 w-full">
         <h1 className="text-xl font-semibold">{title}</h1>
         <p className="py-2 font-IBM text-sm">{children}</p>
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
           {tags.map((tag, index) => (
             <Tag skillName={tag} key={index} />
           ))}
