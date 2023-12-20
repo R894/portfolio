@@ -3,7 +3,7 @@ Welcome to my portfolio project built with React and TypeScript. This project sh
 
 ## Demo
 
-Check out the live demo [here](#).
+Check out the live demo [here](https://kamilkh.com/).
 
 ## Features
 
