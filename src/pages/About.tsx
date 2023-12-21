@@ -12,10 +12,15 @@ const About = () => {
           <div className="font-IBM flex flex-col bg-bg1 max-w-3xl p-4 rounded-3xl text-base gap-4">
             <h1 className="text-brand1 text-3xl">Hello!</h1>
             <p>
-            I specialize in crafting end-to-end web applications, seamlessly navigating through both client-side and server-side development. From designing user-friendly interfaces to optimizing database performance, I embrace the full spectrum of technologies to create engaging and efficient software.
+              I specialize in crafting end-to-end web applications.
+              From designing user-friendly interfaces to optimizing database
+              performance, I embrace the full spectrum of technologies to create
+              engaging and efficient software.
             </p>
             <p>
-            My passion for quality extends beyond development, as I am equally adept at ensuring the reliability and functionality of software through rigorous testing. I bring a systematic approach to quality assurance, implementing comprehensive testing strategies to guarantee the delivery of bug-free, high-performance applications.
+              My passion for quality extends beyond development, I am equally
+              adept at ensuring the reliability and functionality of software
+              through QA testing.
             </p>
           </div>
         </div>

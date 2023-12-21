@@ -1,6 +1,7 @@
 import Button from "../components/Button";
 import Section from "../features/Section";
 import ArrowDown from "../assets/icons/arrow-down.png";
+import Typewriter from "../features/Typewriter";
 
 const Home = () => {
   const handleClickScroll = () => {
@@ -15,10 +16,15 @@ const Home = () => {
       <div className="flex w-full h-full justify-around flex-wrap gap-4">
         <div className="text-xl flex flex-col gap-3 max-w-xl xl:max-w-none">
           <p className="font-IBM">Hi, my name is</p>
-          <p className="text-5xl xl:text-7xl text-brand1 font-medium">Kamil Khalaileh.</p>
-          <p className="text-5xl xl:text-7xl">I build things for the web.</p>
+          <p className="text-5xl xl:text-7xl text-brand1 font-medium">
+            Kamil Khalaileh.
+          </p>
+          <div className="text-5xl xl:text-7xl">
+          I'm <Typewriter text={["a Fullstack Developer", "a Test Engineer", "a QA specialist"]} cursor="|" typeSpeed={120} />
+          </div>
           <p className="text-base py-8 font-IBM">
-            I'm an Israeli full-stack developer and QA engineer who is passionate about building exceptional digital experiences
+            I'm an Israeli full-stack developer and QA engineer who is
+            passionate about building exceptional digital experiences
           </p>
           <div className="w-fit">
             <Button
