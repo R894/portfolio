@@ -20,7 +20,7 @@ const Home = () => {
             Kamil Khalaileh.
           </p>
           <div className="text-5xl xl:text-7xl">
-          I'm <Typewriter text={["a Fullstack Developer", "a Test Engineer", "a QA specialist"]} cursor="|" typeSpeed={120} />
+          I'm <Typewriter text={["a Fullstack Developer", "a tech enthusiast", "a Test Engineer"]} cursor="|" typeSpeed={120}  pauseSpeed={2500}/>
           </div>
           <p className="text-base py-8 font-IBM">
             I'm an Israeli full-stack developer and QA engineer who is
