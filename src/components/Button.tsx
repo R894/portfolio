@@ -11,7 +11,7 @@ const Button: React.FC<ButtonProps> = ({
   onClick,
   children,
 }) => {
-  let btnStyle = "rounded-3xl py-3 px-8 text-xl ";
+  let btnStyle = "rounded-2xl py-3 px-8 text-xl ";
   switch (style) {
     case "primary":
       btnStyle += "bg-brand1 text-bg2";

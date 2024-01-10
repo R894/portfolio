@@ -40,7 +40,6 @@ const Section: React.FC<SectionProps> = ({
             </div>
           </div>
         )}
-
         {children}
         {footer && <Footer/>}
       </div>
