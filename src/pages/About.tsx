@@ -9,8 +9,8 @@ const About = () => {
           <h1 className="text-4xl w-fit bg-bg1 border-2 border-brand1 rounded-xl px-4 py-2">
             About me
           </h1>
-          <div className="font-IBM flex flex-col bg-bg1 max-w-3xl p-4 rounded-3xl text-base gap-4">
-            <h1 className="text-brand1 text-3xl">Hello!</h1>
+          <div className="flex flex-col bg-base-100 max-w-3xl p-4 rounded-3xl text-base gap-4 shadow-xl">
+            <h1 className="text-primary text-3xl">Hello!</h1>
             <p>
               I specialize in crafting end-to-end web applications.
               From designing user-friendly interfaces to optimizing database

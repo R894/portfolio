@@ -16,7 +16,7 @@ const Home = () => {
       <div className="flex w-full h-full justify-around flex-wrap gap-4">
         <div className="text-xl flex flex-col gap-3 max-w-xl xl:max-w-none">
           <p className="font-IBM">Hi, my name is</p>
-          <p className="text-5xl xl:text-7xl text-brand1 font-medium">
+          <p className="text-5xl xl:text-7xl text-primary font-medium">
             Kamil Khalaila.
           </p>
           <div className="text-5xl xl:text-7xl">

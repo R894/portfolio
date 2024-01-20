@@ -19,8 +19,8 @@ const SkillIcon = ({
 const Skills = () => {
   return (
     <Section id="skills" title="Skills">
-      <p className="font-IBM pb-12">
-      I embrace change and continuously expand my skill set to stay ahead of the curve
+      <p className="pb-12">
+        I embrace change and continuously expand my skill set to stay ahead of the curve
       </p>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-16 pb-16">
         <SkillIcon skillName="Typescript" skillPath={Icons.typescriptLogo} />
