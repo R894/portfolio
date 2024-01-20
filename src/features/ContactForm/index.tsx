@@ -58,7 +58,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <h1 className="text-3xl sm:text-4xl bg-transparent text-brand1 border-2 border-brand1 rounded-xl px-4 py-2">
+      <h1 className="text-3xl sm:text-4xl bg-transparent text-primary border-2 border-primary rounded-xl px-4 py-2">
         Send me a message
       </h1>
       <p className="py-2 text-xs font-IBM">

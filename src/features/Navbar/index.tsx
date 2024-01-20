@@ -23,7 +23,7 @@ const NavItem: React.FC<NavItemProps> = ({ children, scrollTo }) => {
         handleClickScroll();
       }}
     >
-      <li className="hover:bg-white hover:text-black transition ease-in-out rounded-xl duration-150 p-2">
+      <li className="hover:bg-white hover:text-neutral text-base transition ease-in-out rounded-xl duration-150 p-2">
         {children}
       </li>
     </a>
@@ -32,7 +32,7 @@ const NavItem: React.FC<NavItemProps> = ({ children, scrollTo }) => {
 
 const Navbar = () => {
   return (
-    <nav className="bg-bg2 hidden xl:block border-2 border-white fixed top-7 left-7 rounded-xl px-3 py-2">
+    <nav className="bg-bg2 hidden xl:block border-2 border-base text-base fixed top-7 left-7 rounded-xl px-3 py-2">
       <ul className="flex flex-col gap-4">
         <NavItem scrollTo="home">
           <GridIcon />

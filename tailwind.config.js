@@ -4,7 +4,7 @@ export default {
     "./src/**/*.{js,jsx,ts,tsx,svg}",
   ],
   daisyui:{
-    themes:["sunset"],
+    themes:["halloween"],
   },
   plugins: [require("daisyui")],
 }

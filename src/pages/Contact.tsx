@@ -3,7 +3,7 @@ import Section from "../features/Section";
 
 const Contact = () => {
   return (
-    <Section id="contact" title="Contact"footer={true}>
+    <Section id="contact" title="Contact" footer={true}>
       <div className="flex flex-col justify-center items-center w-full">
 
         <ContactForm />

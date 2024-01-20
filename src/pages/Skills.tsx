@@ -33,6 +33,8 @@ const Skills = () => {
         <SkillIcon skillName="Postgresql" skillPath={Icons.postgresLogo} />
         <SkillIcon skillName="React" skillPath={Icons.reactLogo} />
         <SkillIcon skillName="TailwindCSS" skillPath={Icons.tailwindLogo} />
+        <SkillIcon skillName="Playwright" skillPath={Icons.playwrightLogo}/>
+        <SkillIcon skillName="Jest" skillPath={Icons.jestLogo}/>
       </div>
     </Section>
   );

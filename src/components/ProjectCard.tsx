@@ -13,7 +13,7 @@ interface ProjectCardProps {
 
 const Tag = ({ skillName }: { skillName: string }) => {
   return (
-    <p className="py-[2px] badge badge-outline text-bg1 font-bold px-1 rounded-md w-fit text-xs bg-brand1">
+    <p className="badge badge-outline font-bold px-1 rounded-md text-xs">
       {skillName}
     </p>
   );
@@ -32,14 +32,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="relative">
         <img
           src={imgSrc}
-          className="w-full h-56 rounded-t-lg bg-white object-cover"
+          className="w-full h-56 rounded-t-lg object-cover"
         />
         <div className="absolute inset-0 h-auto bg-gradient-to-t from-black to-transparent opacity-30" />
       </div>
 
       <div className="p-4 flex flex-col flex-grow justify-between">
         <div>
-          <h1 className="card-title">{title}</h1>
+          <h1 className="card-title text-primary">{title}</h1>
           <p className="py-2 font-IBM text-sm">{children}</p>
           <div className="card-actions flex gap-2 flex-wrap">
             {tags.map((tag, index) => (
